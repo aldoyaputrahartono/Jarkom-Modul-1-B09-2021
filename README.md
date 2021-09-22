@@ -8,12 +8,24 @@ Repository Praktikum Jarkom Modul 1
 ## Soal 1
 Sebutkan webserver yang digunakan pada `ichimarumaru.tech`!
 
-Jawab 1
+Display Filter : `http contains "ichimarumaru.tech"`
+
+![image](https://user-images.githubusercontent.com/31863229/134379580-2211a00b-fb0b-4dfc-a17e-85588d641ecc.png)
+
+Klik kanan lalu pilih Follow > TCP Stream, dapat dilihat bahwa webserver yang digunakan adalah nginx/1.18.0 (Ubuntu).
+
+![image](https://user-images.githubusercontent.com/31863229/134379646-4040cb0b-caf0-4572-b70c-339a8710df3e.png)
 
 ## Soal 2
 Temukan paket dari web-web yang menggunakan basic authentication method!
 
-Jawab 2
+Display Filter : `http.authbasic`
+
+![image](https://user-images.githubusercontent.com/31863229/134379905-d2c1d381-7a83-4e24-90d8-2f187d483af5.png)
+
+Pada Authorization terdapat tulisan `Basic`
+
+![image](https://user-images.githubusercontent.com/31863229/134379944-a465a932-2a9e-4824-8ccb-f9bbda3a55b6.png)
 
 ## Soal 3
 Ikuti perintah di `basic.ichimarumaru.tech`! Username dan password bisa didapatkan dari file `.pcapng`!
