@@ -84,12 +84,40 @@ Display Filter : `ftp.request.command contains "STOR"`
 ## Soal 9
 Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama `secret.zip`. Simpan dan buka file tersebut!
 
-Jawab 9
+Display Filter : `ftp-data.command contains "secret.zip"`
+
+![image](https://user-images.githubusercontent.com/31863229/134388533-79731a89-5c37-409d-9404-198e6e9dba00.png)
+
+Klik kanan lalu pilih Follow > TCP Stream, ubah tipe Raw dan Save As dengan nama `secret.zip`.
+
+![image](https://user-images.githubusercontent.com/31863229/134388566-98e3b4a4-6f74-4610-a5ab-afa0756f9e22.png)
+
+Password dibutuhkan untuk mengekstrak `secret.zip`.
+
+![image](https://user-images.githubusercontent.com/31863229/134388613-bda12dc4-db57-453c-89a0-7b21b033cd16.png)
 
 ## Soal 10
 Selain itu terdapat `history.txt` yang kemungkinan berisi history bash server tersebut! Gunakan isi dari `history.txt` untuk menemukan password untuk membuka file rahasia yang ada di `secret.zip`!
 
-Jawab 10
+Display Filter : `ftp-data.command contains "history.txt"`
+
+![image](https://user-images.githubusercontent.com/31863229/134389002-cbe05e02-cb7a-422e-8438-af8ab5ab2c2d.png)
+
+Klik kanan lalu pilih Follow > TCP Stream, dapat dilihat bahwa password dari file `Wanted.pdf` yang ada di dalam `secret.zip` berada pada `bukanapaapa.txt`.
+
+![image](https://user-images.githubusercontent.com/31863229/134389046-9ae5ca36-ec36-43ff-84a1-783df5dfa497.png)
+
+Display Filter : `ftp-data.command contains "bukanapaapa.txt"`
+
+![image](https://user-images.githubusercontent.com/31863229/134389083-b7a33d2c-b4ea-4961-8826-777e7286bb0c.png)
+
+Klik kanan lalu pilih Follow > TCP Stream, dapat dilihat bahwa password dari file `Wanted.pdf` adalah `d1b1langbukanapaapajugagapercaya`.
+
+![image](https://user-images.githubusercontent.com/31863229/134389118-7fd21f13-3d5b-4caf-b747-4b7fe932333b.png)
+
+Lakukan unzip `secret.zip` dan buka `Wanted.pdf`.
+
+![image](https://user-images.githubusercontent.com/31863229/134389173-34042064-f067-4836-b770-1b7bd852eedf.png)
 
 ## Soal 11
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
