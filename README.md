@@ -122,24 +122,38 @@ Lakukan unzip `secret.zip` dan buka `Wanted.pdf`.
 ## Soal 11
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 
-Jawab 11
+Capture Filter : `src port 80`
+
+![image](https://user-images.githubusercontent.com/31863229/134389942-02a6d3c2-cbe8-4e02-ba92-ef890c7645d0.png)
 
 ## Soal 12
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
-Jawab 12
+Capture Filter : `port 21`
+
+![image](https://user-images.githubusercontent.com/31863229/134390043-f3b4c6ea-a2a0-4a98-a7dd-2fb2619bafdd.png)
 
 ## Soal 13
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 
-Jawab 13
+Capture Filter : `dst port 443`
+
+![image](https://user-images.githubusercontent.com/31863229/134390089-96b4c808-dcc3-467e-a169-43c2a791053d.png)
 
 ## Soal 14
 Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 
-Jawab 14
+Capture Filter : `dst host kemenag.go.id`
+
+![image](https://user-images.githubusercontent.com/31863229/134390163-7ead92ea-8bed-4560-ac40-be3bb67d918f.png)
 
 ## Soal 15
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
-Jawab 15
+Ambil ip masing-masing dengan `ipconfig` pada command prompt. Karena saya memakai wifi, maka didapatkan ip `192.168.64.62`.
+
+![image](https://user-images.githubusercontent.com/31863229/134390196-9b709358-4dc1-48ea-a244-f030ec14a099.png)
+
+Capture Filter : `ip src 192.168.64.62`
+
+![image](https://user-images.githubusercontent.com/31863229/134390235-1c944e27-0624-44fb-9e6b-c768c948d8dc.png)
