@@ -48,20 +48,24 @@ Login ke `basic.ichimarumaru.tech` dan kerjakan soalnya.
 Temukan paket mysql yang mengandung perintah query select!
 
 Display Filter : `mysql.query.contains "SELECT"`
+![image](https://user-images.githubusercontent.com/57482751/134452460-3f604ebe-a0e3-4d67-b623-5efb297329b5.png)
 
 ## Soal 5
 Login ke `portal.ichimarumaru.tech` kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file `.pcap`!
 
 Display Filter : `mysql.query.contains "INSERT"`
+![image](https://user-images.githubusercontent.com/57482751/134452546-4db74ce8-3fc6-4f6b-a20b-1e1960a1ff4f.png)
 Username : `akakanomi`
 Password : `pemisah4lautan`
 Login dan kerjakan soalnya
+![image](https://user-images.githubusercontent.com/57482751/134452526-6f1a1ff3-2ef2-4794-b366-5ec8c423765e.png)
 Jawaban : `o O g B b G br BR`
 
 ## Soal 6
 Cari username dan password ketika melakukan login ke FTP Server!
 
 Display Filter : `ftp.request.command == "USER" or ftp.request.command == "PASS"`
+![image](https://user-images.githubusercontent.com/57482751/134452566-af569f50-406a-4f4b-aad6-602c5ddd2455.png)
 Username : `secretuser`
 Password : `aku.pengen.pw.aja`
 
