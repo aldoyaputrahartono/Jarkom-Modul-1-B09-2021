@@ -51,9 +51,9 @@ Jawaban : `g G o B b O br BR`
 ## Soal 4
 Temukan paket mysql yang mengandung perintah query select!
 
-Display Filter : `mysql.query.contains "SELECT"`
+Display Filter : `mysql.query matches "SELECT"`
 
-![image](https://user-images.githubusercontent.com/57482751/134452460-3f604ebe-a0e3-4d67-b623-5efb297329b5.png)
+![image](https://user-images.githubusercontent.com/31863229/134556112-e40efcf7-85e7-412b-97c0-7524454679be.png)
 
 ## Soal 5
 Login ke `portal.ichimarumaru.tech` kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file `.pcap`!
@@ -101,9 +101,9 @@ Lakukan unzip `Real.zip` dan buka `Real.pdf`.
 ## Soal 8
 Cari paket yang menunjukan pengambilan file dari FTP tersebut!
 
-Display Filter : `ftp.request.command contains "STOR"`
+Display Filter : `ftp.request.command contains "RETR"`
 
-![image](https://user-images.githubusercontent.com/31863229/134385345-1be60bb7-6691-4cb1-9a97-75c659644e82.png)
+![image](https://user-images.githubusercontent.com/31863229/134556251-9dea72ea-1ee3-4503-b15c-64cbaf195eaf.png)
 
 ## Soal 9
 Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama `secret.zip`. Simpan dan buka file tersebut!
