@@ -47,7 +47,8 @@ Login ke `basic.ichimarumaru.tech` dan kerjakan soalnya.
 ## Soal 4
 Temukan paket mysql yang mengandung perintah query select!
 
-Jawab 4
+Display Filter : `mysql.query.contains "SELECT"`
+
 
 ## Soal 5
 Login ke `portal.ichimarumaru.tech` kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file `.pcap`!
