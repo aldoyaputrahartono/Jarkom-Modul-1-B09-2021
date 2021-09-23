@@ -49,16 +49,21 @@ Temukan paket mysql yang mengandung perintah query select!
 
 Display Filter : `mysql.query.contains "SELECT"`
 
-
 ## Soal 5
 Login ke `portal.ichimarumaru.tech` kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file `.pcap`!
 
-Jawab 5
+Display Filter : `mysql.query.contains "INSERT"`
+Username : `akakanomi`
+Password : `pemisah4lautan`
+Login dan kerjakan soalnya
+Jawaban : `o O g B b G br BR`
 
 ## Soal 6
 Cari username dan password ketika melakukan login ke FTP Server!
 
-Jawab 6
+Display Filter : `ftp.request.command == "USER" or ftp.request.command == "PASS"`
+Username : `secretuser`
+Password : `aku.pengen.pw.aja`
 
 ## Soal 7
 Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya `Real.pdf`)
