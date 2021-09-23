@@ -1,9 +1,12 @@
 # Jarkom-Modul-1-B09-2021
 
-Repository Praktikum Jarkom Modul 1
-- 05111940000084_Aldo Yaputra Hartono
-- 05111940000092_Maximilian H M Lingga
-- 05111840000023_Izzulhaq Fawwaz Syauqiy
+Repositori Praktikum Jarkom Modul 1
+
+|NRP           |Nama                   |
+|:------------:|:---------------------:|
+|05111940000084|Aldo Yaputra Hartono   |
+|05111940000092|Maximilian H M Lingga  |
+|05111840000023|Izzulhaq Fawwaz Syauqiy|
 
 ## Soal 1
 Sebutkan webserver yang digunakan pada `ichimarumaru.tech`!
@@ -181,3 +184,14 @@ Ambil ip masing-masing dengan `ipconfig` pada command prompt. Karena saya memaka
 Capture Filter : `ip src 192.168.64.62`
 
 ![image](https://user-images.githubusercontent.com/31863229/134390235-1c944e27-0624-44fb-9e6b-c768c948d8dc.png)
+
+## Kendala
+1. Pada soal 4, filter `contains` bersifat case-sensitive sehingga harus menggunakan filter `matches` untuk mendapatkan query `select` dan `SELECT`.
+2. Pada soal 8, pengambilan file seharusnya menggunakan `RETR`. Akan tetapi tidak ada packet yang ditangkap sehingga kami mengira terdapat typo pada soal karena saat menggunakan `STOR` tertangkap 3 paket.
+
+## Pembagian Tugas
+|Nama                   |Soal   |
+|:---------------------:|:-----:|
+|Maximilian H M Lingga  |1 - 5  |
+|Izzulhaq Fawwaz Syauqiy|6 - 10 |
+|Aldo Yaputra Hartono   |11 - 15|
