@@ -34,9 +34,11 @@ Display Filter : `http.authbasic`
 
 ![image](https://user-images.githubusercontent.com/31863229/134379905-d2c1d381-7a83-4e24-90d8-2f187d483af5.png)
 
-Kelanjutan dari Soal 2, buka bagian Authorization.
+Kelanjutan dari Soal 2, buka bagian Authorization. Pada Credentials didapatkan username dan password.
 
-Pada Credentials didapatkan username (`kuncimenujulautan`) dan password (`tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`).
+Username : `kuncimenujulautan`
+
+Password : `tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 
 ![image](https://user-images.githubusercontent.com/31863229/134381764-703c1dd6-6e75-4de2-95a0-d1f1b0fec31f.png)
 
@@ -44,30 +46,41 @@ Login ke `basic.ichimarumaru.tech` dan kerjakan soalnya.
 
 ![image](https://user-images.githubusercontent.com/31863229/134382261-1c8ddc7a-b072-4e05-b343-6ad7d7127d30.png)
 
+Jawaban : `g G o B b O br BR`
+
 ## Soal 4
 Temukan paket mysql yang mengandung perintah query select!
 
 Display Filter : `mysql.query.contains "SELECT"`
+
 ![image](https://user-images.githubusercontent.com/57482751/134452460-3f604ebe-a0e3-4d67-b623-5efb297329b5.png)
 
 ## Soal 5
 Login ke `portal.ichimarumaru.tech` kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file `.pcap`!
 
 Display Filter : `mysql.query.contains "INSERT"`
+
 ![image](https://user-images.githubusercontent.com/57482751/134452546-4db74ce8-3fc6-4f6b-a20b-1e1960a1ff4f.png)
+
 Username : `akakanomi`
+
 Password : `pemisah4lautan`
 
-Login dan kerjakan soalnya
+Login ke `portal.ichimarumaru.tech` dan kerjakan soalnya.
+
 ![image](https://user-images.githubusercontent.com/57482751/134452526-6f1a1ff3-2ef2-4794-b366-5ec8c423765e.png)
+
 Jawaban : `o O g B b G br BR`
 
 ## Soal 6
 Cari username dan password ketika melakukan login ke FTP Server!
 
 Display Filter : `ftp.request.command == "USER" or ftp.request.command == "PASS"`
+
 ![image](https://user-images.githubusercontent.com/57482751/134452566-af569f50-406a-4f4b-aad6-602c5ddd2455.png)
+
 Username : `secretuser`
+
 Password : `aku.pengen.pw.aja`
 
 ## Soal 7
